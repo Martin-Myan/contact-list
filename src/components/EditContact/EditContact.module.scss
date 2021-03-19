@@ -1,0 +1,80 @@
+.edit_page {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 60;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: #7072a6;
+  border-bottom-left-radius: 39px;
+  border-bottom-right-radius: 39px;
+
+  &__header {
+    display: flex;
+    padding: 0 5px;
+    margin-top: 15px;
+    align-items: center;
+    justify-content: space-between;
+
+    &__cancle {
+      padding: 3px 5px;
+      font-size: 20px;
+      border-radius: 10%;
+      background-color: silver;
+    }
+
+    &__save {
+      padding: 3px 5px;
+      font-size: 20px;
+      border-radius: 10%;
+      background-color: silver;
+    }
+
+    &__disabled {
+      padding: 3px 5px;
+      font-size: 20px;
+      border-radius: 10%;
+      // background-color: RGBA(255, 115, 143, 0.73);
+      background-color: grey;
+    }
+  }
+
+  &__change_values {
+    margin: 185px auto 0;
+
+    &__changeLine {
+      width: 85%;
+      margin: 0 auto;
+      display: block;
+      font-size: 22px;
+      margin-top: 15px;
+      padding: 5px 3px 5px 8px;
+      border-top-left-radius: 15px;
+      border-top-right-radius: 15px;
+      border-bottom: 3px solid black;
+      background-color: rgba(26, 213, 198, 0.35);
+    }
+  }
+
+  &__delete {
+    left: 0;
+    right: 0;
+    bottom: 75px;
+    margin: 0 auto;
+    position: absolute;
+
+    &__btn {
+      color: red;
+      display: block;
+      margin: 0 auto;
+      font-size: 28px;
+      padding: 5px 15px;
+      font-weight: bold;
+      border-radius: 15px;
+      border: 4px solid grey;
+      background-color: rgba(255, 255, 255, 0.33);
+    }
+  }
+}

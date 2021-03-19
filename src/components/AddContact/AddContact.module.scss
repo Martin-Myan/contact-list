@@ -1,0 +1,68 @@
+.add_btn {
+  z-index: 50;
+  right: 15px;
+  bottom: 55px;
+  position: absolute;
+  background-color: transparent;
+
+  svg {
+    width: 35px;
+    height: 35px;
+  }
+}
+
+.add_contact {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 100;
+  position: absolute;
+  background-color: white;
+  border-bottom-left-radius: 39px;
+  border-bottom-right-radius: 39px;
+
+  &__btns {
+    display: flex;
+    padding: 0 5px;
+    margin-top: 15px;
+    align-items: center;
+    justify-content: space-between;
+
+    &__cancle {
+      color: red;
+      font-size: 20px;
+      background-color: transparent;
+    }
+
+    &__done {
+      color: red;
+      font-size: 20px;
+      background-color: transparent;
+    }
+
+    &__disabled {
+      color: grey;
+      background-color: transparent;
+      font-size: 20px;
+    }
+
+    &__title {
+      color: grey;
+    }
+  }
+
+  &__registerBlock {
+    margin-top: 50px;
+
+    &__register {
+      width: 90%;
+      display: block;
+      margin: 0 auto;
+      padding: 2px 3px 2px 6px;
+      margin-bottom: 35px;
+      font-size: 28px;
+      border-bottom: 2px solid red;
+    }
+  }
+}

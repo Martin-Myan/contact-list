@@ -1,0 +1,35 @@
+.searchContainer {
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 84px;
+  margin: 0 auto;
+  max-width: 323px;
+  position: relative;
+  padding: 7px 25px 25px;
+  background-color: #32334a;
+
+  &__searchBlock {
+    position: relative;
+
+    &__icon {
+      top: 9px;
+      left: 12px;
+      width: 15px;
+      height: 15px;
+      position: absolute;
+    }
+
+    &__search {
+      width: 100%;
+      outline: none;
+      display: block;
+      font-size: 22px;
+      border-radius: 15px;
+      margin: 20px auto 0;
+      padding: 2px 9px 2px 36px;
+      border: 1px solid black;
+    }
+  }
+}

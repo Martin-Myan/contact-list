@@ -1,0 +1,147 @@
+.contact {
+  display: flex;
+  margin-top: 15px;
+  padding: 5px 15px;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+
+  &__name {
+    font-size: 20px;
+  }
+}
+
+.contact_info {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: -0;
+  z-index: 100;
+  position: absolute;
+  background-color: #515278;
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+
+  &__backEdit {
+    display: flex;
+    margin-top: 15px;
+    padding: 0 5px;
+    justify-content: space-between;
+
+    &__back {
+      width: 32px;
+      height: 32px;
+    }
+
+    &__edit {
+      font-size: 20px;
+      color: silver;
+      font-weight: bold;
+      font-weight: bold;
+      background-color: transparent;
+    }
+  }
+
+  &__titleBlock {
+    width: 120px;
+    height: 120px;
+    display: flex;
+    border-radius: 50%;
+    align-items: center;
+    margin: 15px auto 0;
+    justify-content: center;
+    border: 1px solid black;
+
+    &__title {
+      height: 100%;
+      color: silver;
+      font-size: 100px;
+    }
+  }
+
+  &__name {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 28px;
+    font-weight: 200;
+    max-width: 323px;
+  }
+
+  &__btns {
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-evenly;
+
+    &__callBtn {
+      border: 2px solid silver;
+      font-size: 18px;
+      font-weight: bold;
+      color: silver;
+      border-radius: 15px;
+      background-color: transparent;
+      width: 70px;
+      height: 70px;
+
+      &__iconCall {
+        width: 25px;
+        height: 25px;
+        display: block;
+        margin: 0 auto 5px;
+      }
+    }
+
+    &__emailBtn {
+      border: 2px solid silver;
+      font-size: 18px;
+      font-weight: bold;
+      color: silver;
+      border-radius: 15px;
+      background-color: transparent;
+      width: 70px;
+      height: 70px;
+
+      &__iconEmail {
+        width: 25px;
+        height: 25px;
+        display: block;
+        margin: 0 auto 5px;
+      }
+    }
+  }
+
+  &__tablick {
+    &__item {
+      margin: 0 auto;
+      width: 90%;
+      margin-top: 25px;
+      padding: 0 0 10px 0;
+      border-bottom: solid 1px black;
+
+      &__title {
+        color: silver;
+        font-size: 22px;
+      }
+
+      &__info {
+        color: black;
+        margin-top: 5px;
+        font-size: 17px;
+      }
+    }
+  }
+
+  &__deleteBlock {
+    margin-top: 50px;
+
+    &__btn {
+      display: block;
+      margin: 0 auto;
+      font-size: 28px;
+      color: red;
+      background-color: rgba(255, 255, 255, 0.33);
+      padding: 5px 15px;
+      font-weight: bold;
+      border: 4px solid grey;
+      border-radius: 15px;
+    }
+  }
+}

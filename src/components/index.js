@@ -1,0 +1,9 @@
+export { default as Input } from "./Input";
+export { default as Button } from "./Button";
+export { default as Header } from "./Header";
+export { default as UserName } from "./UserName";
+export { default as PhoneMaket } from "./PhoneMaket";
+export { default as AddContact } from "./AddContact";
+export { default as EditContact } from "./EditContact";
+export { default as SearchBlock } from "./SearchBlock";
+export { default as ContactSaved } from "./ContactSaved";

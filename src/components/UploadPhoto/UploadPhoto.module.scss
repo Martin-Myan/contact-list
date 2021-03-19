@@ -1,0 +1,61 @@
+.userImage {
+  z-index: 50;
+  width: 128px;
+  height: 128px;
+  display: flex;
+  border-radius: 50%;
+  position: relative;
+  margin: 65px auto 25px;
+  align-items: center;
+  justify-content: center;
+  border: 3px solid black;
+  background-color: rgba(0, 0, 0, 0.67);
+
+  &__label {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 15;
+
+    &__inp {
+      display: none;
+    }
+  }
+
+  &__image {
+    z-index: 11;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    border-radius: 50%;
+  }
+
+  &__text {
+    z-index: 2;
+    font-size: 20px;
+    position: absolute;
+  }
+
+  &__uploader {
+    position: absolute;
+    display: flex;
+    background-image: url(../../image/user.png);
+    color: transparent;
+    border: transparent;
+    width: 128px;
+    height: 128px;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    z-index: 51513;
+    position: relative;
+
+    &__img {
+      border-radius: 50%;
+      border: none;
+      max-width: 126px;
+      width: 100%;
+      height: 126px;
+    }
+  }
+}
